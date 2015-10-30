@@ -55,6 +55,16 @@
           height:26px;
           margin-top:19px;
           border:1px solid rgba(0, 0, 0, 0.2);
+
+
+          margin: 2em;
+          font: 14px BlinkMacSystemFont; 
+          text-align: start;
+          height: 35px;
+ 
+
+
+
         }
         .main form button{
           color: rgb(68, 68, 68);
@@ -72,6 +82,11 @@
         input {
             padding-right: 9px;
             font-size: 16px;
+            padding: 6px;
+           
+                -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
         }
     
         form img {
@@ -148,7 +163,7 @@ function showHint(str) {
       <div class="nav-up"><img src="images/apps-icon.png"></img></div>
       <div class="nav-up">Images</div>      
       <div class="nav-up">Gmail</div>  
-      <div class="nav-up">+Me</div>
+      <div class="nav-up">+Nnamso</div>
     </nav>
   </div>
 
@@ -159,7 +174,7 @@ function showHint(str) {
     <form>
 
 
-<input type="text" placeholder="Search for a word" onkeyup="showHint(this.value)">
+<input type="text" placeholder="Search Google or type URL" onkeyup="showHint(this.value)">
 
 <p> <span id="txtHint"></span></p>
 
@@ -168,7 +183,7 @@ function showHint(str) {
 
 
     <!--  <input type="text"></input> -->
-    </form>
+    
       </br>
       <button>Google Search</button>
       <button>I'm Feeling Lucky</button>
