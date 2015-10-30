@@ -31,6 +31,43 @@ $a[] = "Ellen";
 $a[] = "Wenche";
 $a[] = "Vicky";
 
+$a[] = "Albania";
+             $a[] =    "Algeria";
+             $a[] =    "Andorra";
+             $a[] =    "Angola";
+             $a[] =    "Australia";
+             $a[] =    "Austria";
+             $a[] =    "Bahamas";
+             $a[] =    "Bahrain";
+              $a[] =   "Bangladesh";
+              $a[] =   "Barbados";
+              $a[] =   "Belarus";
+              $a[] =   "Belgium";
+              $a[] =   "Belize";
+              $a[] =   "Benin";
+              $a[] =   "Botswana";
+              $a[] =   "Brazil";
+              $a[] =   "Burma";
+              $a[] =   "Burundi";
+               $a[] =  "Cambodia";
+              $a[] =   "Cameroon";
+              $a[] =   "Canada";
+              $a[] =   "Chad";
+              $a[] =   "Chile";
+              $a[] =   "China";
+              $a[] =   "Colombia";
+              $a[] =   "Comoros";
+              $a[] =   "Congo";
+
+
+$content=file_get_contents("http://country.io/names.json");
+$data=json_decode($content);
+
+//do whatever with $data now
+$data = $array;    
+
+
+
 // get the q parameter from URL
 $q = $_REQUEST["q"];
 
